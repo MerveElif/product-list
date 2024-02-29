@@ -1,0 +1,84 @@
+/* AddProduct.css */
+
+form {
+    margin-top: 20px;
+  }
+  
+  input[type="text"] {
+    padding: 5px;
+    width: 200px;
+    margin-right: 10px;
+  }
+  
+  button[type="submit"] {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #218838;
+  }
+  
+ /* AddProduct.css */
+
+/* AddProduct.css */
+
+.container {
+  display: flex;
+  justify-content: center; /* Yatayda ortala */
+  align-items: center; /* Dikeyde ortala */
+  height: 100vh; /* Sayfa yüksekliği kadar genişlet */
+}
+
+.form-container {
+  text-align: center; /* Form içeriğini ortala */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.form-container form {
+  margin-top: 20px;
+}
+
+.form-container input[type="text"] {
+  padding: 5px;
+  width: 200px;
+  margin-right: 10px;
+}
+
+.form-container button[type="submit"] {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.form-container button[type="submit"]:hover {
+  background-color: #218838;
+}
+
+.success-message,
+.error-message {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: bold;
+  z-index: 999;
+}
+
+.success-message {
+  background-color: #28a745; /* Yeşil renk */
+}
+
+.error-message {
+  background-color: #dc3545; /* Kırmızı renk */
+}

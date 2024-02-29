@@ -1,0 +1,160 @@
+
+/* Eski stiller */
+.container-product{
+  flex-direction: column;
+  justify-content: flex-start !important;
+}
+.product-list-title {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search-filter {
+  display: flex;
+  align-items: center;
+}
+
+.search-filter input,
+.search-filter select {
+  padding: 8px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.product-list {
+  list-style: none;
+  padding: 0;
+}
+
+.product-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.product-item span {
+  margin-right: 10px;
+}
+
+.product-actions {
+  display: flex;
+}
+
+.delete-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.cancel-btn,
+.delete-btn,
+.add-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  font-size: 16px;
+}
+
+.cancel-btn {
+  background-color: #ccc;
+  color: #333;
+}
+
+.delete-btn {
+  background-color: #ff4d4f;
+  color: #fff;
+}
+
+.add-btn {
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+}
+
+.cancel-btn:hover,
+.delete-btn:hover,
+.add-btn:hover {
+  filter: brightness(90%);
+}
+
+.success-message {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  background-color: #28a745;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  z-index: 999;
+  animation: slideIn 0.5s forwards, slideOut 0.5s forwards 2s;
+}
+
+@keyframes slideIn {
+  from {
+    top: -50px;
+    opacity: 0;
+  }
+  to {
+    top: 10px;
+    opacity: 1;
+  }
+}
+
+@keyframes slideOut {
+  from {
+    top: 10px;
+    opacity: 1;
+  }
+  to {
+    top: -50px;
+    opacity: 0;
+  }
+}
+
+.actions{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.action-delete-button{
+  margin:0px 8px 0px 8px;
+  padding:2px;
+}
